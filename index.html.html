@@ -1,0 +1,69 @@
+<html> 
+  <head>
+	<link type="text/css" rel="stylesheet" href="main.css" />
+	<title> Bike Buzzards</title> 
+ 	<script>
+	function banner(){ 
+var text = confirm("Have you already subscribed?"); 
+return text; 
+}
+function answer(){var radio = document.getElementsByName("trivia");
+var selection = false;
+var message = ""; for( var i = 0; i < radio.length; i++) { 
+if(radio[i].value == "Backflip" && radio[i].checked == true) { 
+selection = true}}if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;}
+  </script>
+  </head>
+  
+
+  <body id="background"> 
+  	<a href="https://www.youtube.com/channel/UCr6BzFp9CSjtbPgD2hpPrVw" onclick="return banner()">
+     <center><h1><header class="He">Welcome To the House of MTB </header></h1></center>
+  	 </a>
+     <NAV>
+       <UL id="van-item"><center>
+        <li class="nan-item"> <a href="https://www.youtube.com/user/parktoolcompany"> Repairs </a> </li>
+       <li class="nan-item"> <a href="https://www.youtube.com/user/globalmtb"> Tutorials </a> </li>
+        <li class="nan-item"> <a href="https://www.youtube.com/user/TheCrow90mtb/videos"> Inspirationals </a> </li>
+       </center></UL>
+  	 </NAV>
+  	 <center><h1>Bike Buzzards,</h1></center>
+ 	 <center><p class="P1"><h1> where Mountain Bikers belong. </h1></p></center>
+	<center>	
+ 	  <li class="l1"> Tutorials </li>
+	  <li class="L1"> Soul shreds  </li>
+	  <li class="L1"> Bike Talk  </li>
+	</center>
+	<H3>FreeRide Question</H3>
+	<P class="P1"> Which trick is used the most in RedBull Rampage?</P>
+	<div class="Freeride-Question">
+
+	<FORM><div id="response"> </div>
+    <input type="radio" name="trivia" value="Backflip"> Backflip <br><input type="radio" name="trivia" value="360"> 360 <br><input type="radio" name="trivia" value="Tuck no hander">Tuck no hander<br><input type="radio" name="trivia" value="Suicide No-Hander">Suicide No-Hander <br><input type="button" value="Submit Answer" onclick="answer()" id="button1">
+	</FORM>
+    </div>
+
+	<IMG SRC="Jekyll.jpg"/>
+	<HR>
+	<IMG SRC="Bike-Sprocket(Main).png">
+
+    <div id="rightside">
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/x2UPwp201k0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <HR>
+   	 <div id="leftside">
+   	<center><iframe width="560" height="315" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/541648155&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></center> 
+     </div>
+
+	<HR>
+	<CENTER><H3>Bike Buzzards</H3></CENTER>	
+	<CENTER>Check out our youtube channel <a href="https://www.youtube.com/channel/UCr6BzFp9CSjtbPgD2hpPrVw?view_as=subscriber"> here </a>  </CENTER>
+    <FOOTER><center><h1>Created by <span class="feet">Louis Jensen </span></h1></center></FOOTER>
+  
+  </body> 
+</html>
